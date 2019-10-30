@@ -1,6 +1,6 @@
 package edu.otaviotarelho;
 
-public class Main {
+public class Producer {
 
     public static void main(String[] args) {
         Address address = new Address("R. Luís Coelho - Consolação, São Paulo - SP", 223, "01309001");

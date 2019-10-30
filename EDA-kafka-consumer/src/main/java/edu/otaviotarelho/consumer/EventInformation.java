@@ -9,4 +9,12 @@ public class EventInformation {
         this.event = event;
         this.emailAddress = emailAddress;
     }
+
+    @Override
+    public String toString() {
+        return "EventInformation{" +
+                "event=" + event +
+                ", emailAddress='" + emailAddress + '\'' +
+                '}';
+    }
 }

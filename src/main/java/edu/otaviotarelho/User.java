@@ -10,7 +10,8 @@ public class User {
     private String email;
     private Address address;
 
-    public User(Long id, String firstName, String lastName, Integer yearOfBirth, Integer monthOfBirth, Integer dayOfBirth, String email, Address address) {
+    public User(Long id, String firstName, String lastName, Integer yearOfBirth, Integer monthOfBirth,
+                Integer dayOfBirth, String email, Address address) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
